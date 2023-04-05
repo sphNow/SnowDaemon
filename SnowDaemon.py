@@ -4,7 +4,7 @@ import datetime
 import time
 from bs4 import BeautifulSoup
 import os
-from SnowDaemonsrc.config import *
+from SnowDaemon.config import *
 
 from selenium import webdriver
 from selenium.webdriver import ActionChains
@@ -12,8 +12,8 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
-from SnowDaemonsrc.config import mail_box
-from SnowDaemonsrc.web.Snow.my_snow import my_snow
+from SnowDaemon.config import mail_box
+from SnowDaemon.web.Snow.my_snow import my_snow
 
 outlook = win32com.client.Dispatch("Outlook.Application")
 
